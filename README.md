@@ -36,7 +36,7 @@ After creating the given graph, we check if the number of edges equals to the nu
 graph must be connected and have exactly one graph. Then, we know that we have only one cycle and we find it. 
 Last, we find the number of vertices of trees with roots included in cycle. 
 
-This problem is solved in [Standard ML](coronagraph/coronagraph.sml),  [C++](coronagraph/coronagraph2.cpp) and [Prolog](coronagraph/coronagraph.pl)
+This problem is solved in [Standard ML](coronagraph/coronograph.sml),  [C++](coronagraph/coronograph2.cpp) and [Prolog](coronagraph/coronograph.pl)
 
 
 ### Stayhome
@@ -48,7 +48,7 @@ We are given a 2D map with some airports (A), some obstacles (X), Sotiris' start
 
 We first calculate how much time it takes for virus to infect each cell. To achieve this, we run a BFS algorithm with our initial queue containing CoronaVirus starting position. We then run a BFS algorithm from Sotiris's position and search for a cell that is not infected yet. 
 
-This problem is solved in [Standard ML](stayhome/Stayhome2.sml),  [Python](stayhome/Stayhome.py) and [Java](stayhome/java)
+This problem is solved in [Standard ML](stayhome/stayhome2.sml),  [Python](stayhome/stayhome.py) and [Java](stayhome/java)
 
 ### Vaccine 
 
